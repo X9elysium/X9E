@@ -7,7 +7,7 @@ draft: false
 about_us:
   subtitle: WHO WE ARE
   title: Hello, We’re Andromeda Here For Your Help
-  content: Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit
+  content: We are X9Elysium, a dedicated team of IT professionals and strategists committed to empowering eCommerce brands. Through our bespoke IT consulting and custom product development, we help emerging and established brands navigate the digital landscape with ease and efficiency.
   image: /images/about/01.jpg
 
 ## our works

@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "Andromeda is the most intuitive </br> way to prototype Designs"
+  title: "X9Elysium </br> Empowering eCommerce Brands"
   image: /images/banner-app.png
   link:
     label: Get Premium Version
@@ -21,21 +21,21 @@ brands:
 #features
 features:
   sub_title: SPECIAL FEATURES
-  title: Elements To </br> Get You Started
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: Exceptional Services for Exceptional Brand
+  description: 
   list:
     - icon: 'lock' # feather icon: https://feathericons.com/
-      title: Updated Security
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: eCommerce Website Development
+      content: Designing and developing state-of-the-art eCommerce websites that captivate audiences and optimize conversions.
     - icon: 'wind'
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Custom eCommerce Solutions
+      content: Creating tailor-made software solutions to enhance your brand’s online presence and streamline operations.
     - icon: 'shield'
-      title: Secured & up-to-date
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: eCommerce Consulting
+      content: Providing strategic insights and guidance to help your brand navigate the evolving digital marketplace.
     - icon: 'link'
-      title: Instant Link Sharing
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Digital Marketing & SEO
+      content: Driving growth and boosting online visibility with targeted digital marketing strategies and SEO optimization.
     - icon: 'lock'
       title: Updated Security
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
