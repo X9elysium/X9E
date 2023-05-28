@@ -3,17 +3,17 @@ banner:
   title: "X9Elysium </br> Empowering eCommerce Brands"
   image: /images/banner-app.png
   link:
-    label: Get Premium Version
-    href: "#"
+    label: Contact Us
+    href: "/contact"
 
 ##brands
 brands:
-  - /images/brands/01-colored.png
-  - /images/brands/02-colored.png
-  - /images/brands/03-colored.png
-  - /images/brands/04-colored.png
+  - /images/brands/shopify.png
+  - /images/brands/woo_commerce.png
+  - /images/brands/wordpress.png
+  - /images/brands/react.png
   - /images/brands/05-colored.png
-  - /images/brands/06-colored.png
+  - /images/brands/wix.png
   - /images/brands/04-colored.png
   - /images/brands/05-colored.png
   - /images/brands/06-colored.png
@@ -37,12 +37,9 @@ features:
       title: Digital Marketing & SEO
       content: Driving growth and boosting online visibility with targeted digital marketing strategies and SEO optimization.
     - icon: 'lock'
-      title: Updated Security
+      title: Custom Web Development
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'wind'
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-
+    
 #intro
 intro:
   title: Built Exclusively For You

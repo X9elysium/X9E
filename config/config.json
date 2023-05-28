@@ -3,10 +3,10 @@
     "title": "Andromeda Light Nextjs",
     "base_url": "/",
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.svg",
-    "logo_width": "240",
-    "logo_height": "34",
-    "logo_text": "Andromeda"
+    "logo": "/images/X9Elysium_logo.jpg",
+    "logo_width": "80",
+    "logo_height": "100",
+    "logo_text": "X9Elysium"
   },
 
   "settings": {
@@ -30,14 +30,14 @@
 
   "nav_button": {
     "enable": true,
-    "label": "Download Now",
-    "link": "https://themefisher.com/products/andromeda-light-nextjs"
+    "label": "Contact Us Now",
+    "link": "#"
   },
 
   "metadata": {
     "meta_author": "Themefisher",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Andromeda-light Nextjs Blog Template"
+    "meta_description": "X9Elysium"
   },
 
   "call_to_action": {
@@ -45,8 +45,8 @@
     "title": "Contact Us",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/products/andromeda-light-nextjs"
+      "label": "Contact Us Now",
+      "link": "#"
     }
   },
 

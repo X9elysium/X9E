@@ -6,7 +6,7 @@ draft: false
 ## about us
 about_us:
   subtitle: WHO WE ARE
-  title: Hello, We’re Andromeda Here For Your Help
+  title: Hello, We’re X9Elysium Here For Your Help
   content: We are X9Elysium, a dedicated team of IT professionals and strategists committed to empowering eCommerce brands. Through our bespoke IT consulting and custom product development, we help emerging and established brands navigate the digital landscape with ease and efficiency.
   image: /images/about/01.jpg
 
@@ -27,15 +27,15 @@ works:
 ## our mission
 mission:
   subtitle: OUR MISSION
-  title: Main Vision And Mission Of Our Company
-  content: We were freelance designers and developers, constantly finding ourselve deep vague feedback. leaving a notes from the sticky note piece .
+  title: Mission Of Our Company
+  content: At X9Elysium, our mission is to empower businesses to transform and thrive in the digital age, one IT project at a time. We leverage our expertise in technology and innovation to help our clients harness the potential of cutting-edge solutions and drive their success.
   image: /images/about/02.jpg
 
 ## short video
 video:
-  subtitle: A SHORT VIDEO
-  title: You Take Care Of The Payments, We Take Care Of The Rest.
-  description: Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistcy throughout the.
+  subtitle: OUR VISION
+  title: Main Vision of Our Company.
+  description: Our vision is to inspire a culture of inclusivity and diversity in the workplace, fostering an environment that nurtures creativity and collaboration. We believe that by bringing together individuals with diverse perspectives and experiences, we can drive innovation and make a meaningful impact on the world.
   video_id: dyZcRRWiuuw
   thumbnail: /images/about/video-popup-2.jpg
 
@@ -44,12 +44,12 @@ clients:
   subtitle: OUR CLIENTS
   title: Trusted By Thousands Companies
   brands:
-    - /images/brands/01-colored.png
-    - /images/brands/02-colored.png
-    - /images/brands/03-colored.png
-    - /images/brands/04-colored.png
+    - /images/brands/shopify.png
+    - /images/brands/woo_commerce.png
+    - /images/brands/wordpress.png
+    - /images/brands/react.png
     - /images/brands/05-colored.png
-    - /images/brands/06-colored.png
+    - /images/brands/wix.png
     - /images/brands/04-colored.png
     - /images/brands/05-colored.png
     - /images/brands/06-colored.png
@@ -81,14 +81,8 @@ our_office:
       name: NewYork, USA
       location: 219 Bald Hill Drive Oakland Gardens, NY 11364
     - flag: /images/about/flags/au.png
-      name: Australia, Perth
-      location: Flat 23 80 Anthony Circlet Port Guiseppe, TAS 2691
-    - flag:  /images/about/flags/germany.png
-      name: Berlin, Germany
-      location: Jl Raya Dewi Sartika Ged Harapan Masa, Br Germeny
-    - flag:  /images/about/flags/china.png
-      name: China, Wohan
-      location: 1hao Wen Ti Huo Dong Zhong Xin 1ceng Jian Xing
+      name: Vancouver, CA
+      location: 1515 133b st, Surrey, BC , V4A 6A5
 
 ---
 
