@@ -3,39 +3,32 @@ title: Terms & condition
 description: "this is meta description"
 draft: false
 ---
+### 1. Terms of Service:
 
-#### 1. Definitions
+Acceptance of Terms: By using the services of X9Elysium, the Client agrees to these Terms of Service.
 
-We collect certain identifying personal data when you sign up to our Service such as your name, email address, PayPal address (if different from email address), and telephone number. The personal data we collect from you is disclosed only in accordance with our Terms of Service and/or this Privacy Policy.Conclude collects Slack account and access information from Users for the purposes of connecting to the Slack API and to authenticate access to information on the Conclude website. Whenever you visit our Site, we may collect non-identifying information from you, such as referring URL, browser, operating system, cookie information, and Internet Service Provider. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, this information alone cannot usually be used to identify you.The term “personal data” does not include any anonymized and aggregated data made on the basis of personal data, which are wholly owned by Conclude.
+Services: X9Elysium will provide IT consulting services as described in the signed agreement or service order. The services will be delivered professionally, on time, and within the agreed budget.
 
-#### 2. General Terms
+Fees and Payment: Fees for our services will be set out in our service agreement. Invoices are due upon receipt, and late payments may result in suspension of services.
 
-##### Service Provided AS IS
+Client Responsibilities: The Client agrees to provide timely and accurate information necessary for the provision of services.
 
-The Service is provided for free during this pilot project, and is provided “as is” with no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any level of service or availability of the Service. A further description of the Service and our user support is available at the Site.
+Confidentiality: X9Elysium agrees to keep all Client information confidential, only using it for the purpose of providing the services agreed upon.
 
-##### Interoperation with Slack
+Intellectual Property: All intellectual property rights in the work product resulting from the services will be owned by the Client upon full payment of our fees.
 
-The Service interoperates with Slack.com, and depends on the continuing availability and access to Slack. If for any reason Conclude cannot access or use Slack (including without limitation, change in terms or increase in fees charged by Slack), Conclude may not be able to provide all of the functions of its Service. No refund or credit, if applicable, will be provided for temporary unavailability of Slack (for example, maintenance windows).
+Limitation of Liability: X9Elysium will not be liable for any incidental, consequential, or indirect damages arising out of the use of our services.
 
-##### Company Liability
+Governing Law: These terms will be governed by the laws of the jurisdiction where X9Elysium is located.
 
-If you enter into this agreement on behalf of a company, you hereby agree that the company is responsible under this Agreement for all actions and omissions conducted by its designated users of the Service.
+### 2. Privacy Policy
 
-#### 3. Rules of Use
+Collection of Information: We collect personal information necessary for the provision of our services, such as name, contact details, and payment information.
 
-1. must keep passwords secure and confidential;
-2. are solely responsible for User Data and all activity in their account while using the Service;
-3. must use commercially reasonable efforts to prevent unauthorized access to their account, and notify Conclude promptly of any such unauthorized access; and
-4. may use the Service only in accordance with Conclude’s online user guide and all applicable laws and regulations.
+Use of Information: We use this information to provide our services, manage our relationship with the Client, comply with legal obligations, and improve our services.
 
-###### You must not
+Disclosure of Information: We may share information with third parties as necessary to provide our services or as required by law.
 
-- Enhance or improve User experience, our Site, or our Service.
-- Process transactions.
-- Send emails about our Site or respond to inquiries.
-- As this Privacy Policy and our Terms of Service.
+Security of Information: We implement security measures to protect the personal information we hold, but we cannot guarantee complete security.
 
-##### 5. Intellectual Property Rights
-
-Your information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the privacy laws may not be as protective as those in your jurisdiction. If you choose to provide information to us, Conclude transfers Personal Information to Google Cloud Platform and processes it there. Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
+Changes to Privacy Policy: We may update this policy periodically. We recommend that the Client review this policy regularly.
