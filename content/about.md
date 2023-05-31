@@ -41,19 +41,18 @@ video:
 
 ## clients
 clients:
-  subtitle: OUR CLIENTS
-  title: Trusted By Thousands Companies
+  subtitle: 
+  title: Our Expertise
   brands:
-    - /images/brands/shopify.png
     - /images/brands/woo_commerce.png
     - /images/brands/wordpress.png
+    - /images/brands/shopify.png
     - /images/brands/react.png
     - /images/brands/05-colored.png
     - /images/brands/wix.png
     - /images/brands/04-colored.png
     - /images/brands/05-colored.png
-    - /images/brands/06-colored.png
-
+    - /images/brands/shopify.png
 
 ## members
 our_member:

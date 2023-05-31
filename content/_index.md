@@ -1,6 +1,7 @@
 ---
 banner:
   title: "X9Elysium </br> Empowering eCommerce Brands"
+  description: "Fuel your eCommerce journey with X9Elysium. We deliver transformative services that redefine your brand's online presence."
   image: /images/banner-app.png
   link:
     label: Contact Us
@@ -8,15 +9,15 @@ banner:
 
 ##brands
 brands:
-  - /images/brands/shopify.png
   - /images/brands/woo_commerce.png
   - /images/brands/wordpress.png
+  - /images/brands/shopify.png
   - /images/brands/react.png
   - /images/brands/05-colored.png
   - /images/brands/wix.png
   - /images/brands/04-colored.png
   - /images/brands/05-colored.png
-  - /images/brands/06-colored.png
+  - /images/brands/shopify.png
 
 #features
 features:
@@ -31,14 +32,14 @@ features:
       title: Custom eCommerce Solutions
       content: Creating tailor-made software solutions to enhance your brand’s online presence and streamline operations.
     - icon: 'shield'
-      title: eCommerce Consulting
+      title: Consulting
       content: Providing strategic insights and guidance to help your brand navigate the evolving digital marketplace.
     - icon: 'link'
       title: Digital Marketing & SEO
       content: Driving growth and boosting online visibility with targeted digital marketing strategies and SEO optimization.
     - icon: 'lock'
-      title: Custom Web Development
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Software Development
+      content: Transform your ideas into reality with our custom software development services. We design and build software solutions that add value to your business.
     
 #intro
 intro:
@@ -51,14 +52,14 @@ intro:
 #speciality
 speciality:
   primary:
-    title: You Will Not Miss Your All Misunderstandings
-    subtitle: PRIMARY SPECIALITY
-    description: Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistency throughout the.
+    title: IT Consulting for Business Growth
+    subtitle: OUR PRIMARY SPECIALITY
+    description: We provide expert IT consulting services to help you harness the power of technology for business growth. Our team works closely with you to understand your business needs and develop strategic IT solutions.
     image: /images/features-01.png
   secondary:
-    title: Say Hello To No-Code The Advance Creation
-    subtitle: SECONDARY SPECIALITY
-    description: From the simplest of interactions to those that use Excel-gradeing formulas, ProtoPie can handle them all. Make mind-blowing of New interactions everyday without ever having to write any new code.
+    title: Ecommerce Solutions for New Brands
+    subtitle: OUR SECONDARY SPECIALITY
+    description: We offer specialized services for new ecommerce brands. From website development to customized product creation, we provide the tools you need to build a successful online presence.
     image: /images/features-02.png
 
 
