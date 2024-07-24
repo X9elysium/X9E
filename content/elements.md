@@ -1,255 +1,73 @@
 ---
-title: "Elements"
-draft: false
+title: Website Elements
+description: Explore the various elements used in our website design at X9 Elysium. Discover how we create engaging and functional websites.
 ---
+
+## Website Elements
+
+Welcome to the elements page! Here you will find examples of the various design elements we use to create engaging and functional websites.
+
+### Typography
+
+#### Headings
 
 # Heading 1
-
 ## Heading 2
-
 ### Heading 3
-
 #### Heading 4
-
 ##### Heading 5
-
 ###### Heading 6
 
----
+#### Paragraphs
 
-### Paragraph
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.
 
-Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf. Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships.
+### Buttons
 
-Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf. Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships.
+#### Primary Button
 
----
+[Primary Button](#)
 
-### Emphasis
+#### Secondary Button
 
-1. Did you come here for something in **particular** or just general
+[Secondary Button](#)
 
-2. Did you come here for something in <ins>particular</ins>
+### Forms
 
-3. _Did you come here_
+#### Contact Form
 
-4. Did you come here for **something** in particular
+[Contact Form]
 
-5. Did you come here for something in particular
+### Images
 
-6. Did you come here for something in particular
+![Sample Image](#)
 
-7. URLs and URLs in angle brackets will automatically get turned into links. [http://www.example.com](http://www.example.com) or
+### Lists
 
-8. [http://www.example.com](http://www.example.com) and sometimes example.com (but not on Github, for example).
+#### Unordered List
 
----
+- Item 1
+- Item 2
+- Item 3
 
-### Link
+#### Ordered List
 
-[I'm an inline-style link](https://www.google.com)
+1. Item 1
+2. Item 2
+3. Item 3
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+### Tables
 
-[I'm a reference-style link][arbitrary case-insensitive reference text]
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row 1    | Data     | Data     |
+| Row 2    | Data     | Data     |
+| Row 3    | Data     | Data     |
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+### Code
 
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.themefisher.com
-[1]: https://gethugothemes.com
-[link text itself]: https://www.getjekyllthemes.com
-
----
-
-### Ordered List
-
-1. List item
-2. List item
-3. List item
-4. List item
-5. List item
-
----
-
-### Unordered List
-
-- List item
-- List item
-- List item
-- List item
-- List item
-
----
-
-### Code and Syntax Highlighting
-
-#### HTML
-
-<Code language="html">
-{`<ul>
-  <li class="nav-item">
-    <a class="nav-link" href="/">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="about/">About</a>
-  </li>
-</ul>`}
-</Code>
-
----
-
-#### CSS
-
-<Code language="css">
-{`img {
-  vertical-align: middle;
-  border: 0;
-  max-width: 100%;
-  height: auto;
-}`}
-</Code>
-
----
-
-#### JavaScript
-
-<Code language="javascript">
-{`window.addEventListener("load", (e) => {
-  document.querySelector(".preloader").style.display = "none";
-})`}
-</Code>
-
----
-
-### Button
-
-<Button href="#" type="solid">Button</Button>
-
----
-
-### Quote
-
-<Blockquote name="!Alexender Smith">
- Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
-</Blockquote>
-
----
-
-### Notice
-
-<Notice type="note">
-  This is a simple note.
-</Notice>
-
-<Notice type="tip">
-  This is a simple note.
-</Notice>
-
-<Notice type="info">
-  This is a simple note.
-</Notice>
-
-<Notice type="warning">
-  This is a simple note.
-</Notice>
-
----
-
-<Tabs>
-
-<Tab name="Tab 1">
-
-##### Did you come here for something in particular?
-
-Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf.
-</Tab>
-
-<Tab name="Tab 2">
-
-##### I wanna talk about the assassination attempt
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-</Tab>
-
-<Tab name="Tab 3">
-
-##### We know you’re dealing in stolen ore
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-</Tab>
-
-</Tabs>
-
----
-
-### Table
-
-| #   |    First     |     Last     |       Handle |
-| :-- | :----------: | :----------: | -----------: |
-| 1   | Row:1 Cell:1 | Row:1 Cell:2 | Row:1 Cell:3 |
-| 2   | Row:2 Cell:1 | Row:2 Cell:2 | Row:2 Cell:3 |
-| 3   | Row:3 Cell:1 | Row:3 Cell:2 | Row:3 Cell:3 |
-
----
-
-### Collapse
-
-<Accordion title="Why should you need to do this?">
-
-- This is a thing.
-- This is a thing.
-- This is a thing.
-- This is a thing.
-- This is a thing.
-
-</Accordion>
-
-<Accordion title="How can I adjust Horizontal centering">
-
-- This is a thing.
-- This is a thing.
-- This is a thing.
-- This is a thing.
-- This is a thing.
-
-</Accordion>
-
-<Accordion title="Should you use Negative margin?">
-
-- This is a thing.
-- This is a thing.
-- This is a thing.
-- This is a thing.
-- This is a thing.
-
-</Accordion>
-
----
-
-### Image
-
-![image](/images/flower.jpg)
-
----
-
-### Youtube video
-
-<Youtube id="ZEe-IFezQok" title="Play:Youtube"/>
-
----
-
-### Custom video
-
-<Video width="100%" src="https://joy1.videvo.net/videvo_files/video/free/video0467/large_watermarked/_import_61516692993d77.04238324_preview.mp4" />
+```html
+<code>
+  <h1>Sample Code</h1>
+  <p>This is a sample code block.</p>
+</code>
