@@ -7,8 +7,7 @@ import { getRegularPage, getSinglePage } from "@lib/contentParser";
 
 // for all regular pages
 const RegularPages = ({ data }) => {
-  const { title, meta_title, description, image, noindex, canonical, layout } =
-    data.frontmatter;
+  const { title, meta_title, description, image, noindex, canonical, layout } = data.frontmatter;
   const { content } = data;
 
   return (
@@ -37,11 +36,13 @@ export default RegularPages;
 // for regular page routes
 export const getStaticPaths = async () => {
   const slugs = getSinglePage("content");
-  const paths = slugs.map((item) => ({
-    params: {
-      regular: item.slug,
-    },
-  }));
+  const paths = slugs
+    .map((item) => ({
+      params: {
+        regular: item.slug,
+      },
+    }))
+    .filter((path) => path.params.regular !== "404"); // Exclude the 404 page
 
   return {
     paths,
