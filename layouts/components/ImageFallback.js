@@ -1,4 +1,6 @@
-/* eslint-disable jsx-a11y/alt-text */
+
+
+// ImageFallback.js
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -14,6 +16,7 @@ const ImageFallback = (props) => {
     <Image
       {...rest}
       src={imgSrc}
+      fetchpriority="high"
       onError={() => {
         setImgSrc(fallback);
       }}
