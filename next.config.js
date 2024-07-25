@@ -1,7 +1,9 @@
-const withMDX = require('@next/mdx')({
-  extension: /\.mdx?$/,
-});
+const path = require('path');
 
-module.exports = withMDX({
-  pageExtensions: ['js', 'jsx', 'md', 'mdx'],
-});
+module.exports = {
+  webpack: (config) => {
+    config.resolve.alias['@lib'] = path.join(__dirname, 'lib');
+    config.resolve.alias['@components'] = path.join(__dirname, 'components');
+    return config;
+  },
+};

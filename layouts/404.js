@@ -1,4 +1,6 @@
 import { markdownify } from "@lib/utils/textConverter";
+// pages/404.js
+import { getRegularPage } from '@lib/contentParser';
 
 const NotFound = ({ data }) => {
   const { frontmatter, content } = data;
