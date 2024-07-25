@@ -1,9 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  webpack: (config) => {
-    config.resolve.alias['@lib'] = path.join(__dirname, 'lib');
-    config.resolve.alias['@components'] = path.join(__dirname, 'components');
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      // Replace fs with a mock module that does nothing on the client side
+      config.resolve.fallback = { fs: false };
+    }
+
     return config;
   },
 };

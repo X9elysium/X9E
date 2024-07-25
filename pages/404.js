@@ -1,6 +1,6 @@
 import NotFound from "@layouts/404";
 import Base from "@layouts/Baseof";
-import { getRegularPage } from "@lib/contentParser";
+import { getRegularPage } from "@lib/server/contentParser";
 
 const notFound = ({ data }) => {
   return (
