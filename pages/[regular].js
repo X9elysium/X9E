@@ -1,16 +1,24 @@
-import Base from "@layouts/Baseof";
 import NotFound from "@layouts/404";
 import About from "@layouts/About";
+import Base from "@layouts/Baseof";
 import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
-import { getSinglePage, getRegularPage } from '@lib/server/contentParser';
+import { getRegularPage, getSinglePage } from "@lib/server/contentParser"; // Updated path
 
+// for all regular pages
 const RegularPages = ({ data }) => {
   const { title, meta_title, description, image, noindex, canonical, layout } = data.frontmatter;
   const { content } = data;
 
   return (
-    <Base title={title} description={description ? description : content.slice(0, 120)} meta_title={meta_title} image={image} noindex={noindex} canonical={canonical}>
+    <Base
+      title={title}
+      description={description ? description : content.slice(0, 120)}
+      meta_title={meta_title}
+      image={image}
+      noindex={noindex}
+      canonical={canonical}
+    >
       {layout === "404" ? (
         <NotFound data={data} />
       ) : layout === "about" ? (
@@ -23,14 +31,18 @@ const RegularPages = ({ data }) => {
     </Base>
   );
 };
-
 export default RegularPages;
 
+// for regular page routes
 export const getStaticPaths = async () => {
-  const slugs = getSinglePage('content');
-  const paths = slugs.map((item) => ({
-    params: { regular: item.slug },
-  }));
+  const slugs = getSinglePage("content");
+  const paths = slugs
+    .map((item) => ({
+      params: {
+        regular: item.slug,
+      },
+    }))
+    .filter((path) => path.params.regular !== "404"); // Exclude the 404 page
 
   return {
     paths,
@@ -38,11 +50,15 @@ export const getStaticPaths = async () => {
   };
 };
 
+// for regular page data
 export const getStaticProps = async ({ params }) => {
   const { regular } = params;
-  const data = getRegularPage(regular);
+  const allPages = await getRegularPage(regular);
 
   return {
-    props: { data },
+    props: {
+      slug: regular,
+      data: allPages,
+    },
   };
 };
