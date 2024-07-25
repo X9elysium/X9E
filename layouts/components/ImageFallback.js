@@ -16,7 +16,7 @@ const ImageFallback = (props) => {
       onError={() => {
         setImgSrc(fallback);
       }}
-      fetchpriority="high" // Convert fetchPriority to fetchpriority
+      fetchpriority="high"
     />
   );
 };
