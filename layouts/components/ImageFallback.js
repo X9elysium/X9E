@@ -1,6 +1,3 @@
-
-
-// ImageFallback.js
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -16,10 +13,10 @@ const ImageFallback = (props) => {
     <Image
       {...rest}
       src={imgSrc}
-      fetchpriority="high"
       onError={() => {
         setImgSrc(fallback);
       }}
+      fetchpriority="high" // Convert fetchPriority to fetchpriority
     />
   );
 };
