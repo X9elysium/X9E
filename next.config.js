@@ -1,12 +1,19 @@
-const path = require('path');
+// next.config.js
+const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    domains: ['https://main.d3e1pa0azrrlts.amplifyapp.com/'],
+  },
   webpack: (config, { isServer }) => {
     if (!isServer) {
-      // Replace fs with a mock module that does nothing on the client side
-      config.resolve.fallback = { fs: false };
+      config.resolve.fallback = {
+        fs: false,
+        path: false,
+      };
     }
-
     return config;
   },
 };
