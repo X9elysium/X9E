@@ -1,8 +1,16 @@
-import NotFound from "@layouts/404";
-import About from "@layouts/About";
-import Base from "@layouts/Baseof";
-import Contact from "@layouts/Contact";
-import Default from "@layouts/Default";
+// import NotFound from "@layouts/404";
+// import About from "@layouts/About";
+// import Base from "@layouts/Baseof";
+// import Contact from "@layouts/Contact";
+// import Default from "@layouts/Default";
+
+import Base from '../layouts/Baseof';
+import About from '../layouts/About';
+import Contact from '../layouts/Contact';
+import Default from '../layouts/Default';
+import NotFound from '../layouts/404';
+
+
 import { getRegularPage, getSinglePage } from "@lib/server/contentParser"; // Updated path
 
 // for all regular pages
