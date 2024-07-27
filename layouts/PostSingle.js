@@ -2,7 +2,9 @@ import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import dateFormat from "@lib/utils/dateFormat";
 import readingTime from "@lib/utils/readingTime";
-import { markdownify } from "@lib/utils/textConverter";
+// import { markdownify } from "@lib/utils/textConverter";
+import { markdownify } from '../lib/utils/textConverter';
+
 import shortcodes from "@shortcodes/all";
 import { DiscussionEmbed } from "disqus-react";
 import { MDXRemote } from "next-mdx-remote";
