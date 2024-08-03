@@ -5,9 +5,7 @@ import Contact from "../layouts/Contact";
 import Default from "../layouts/Default";
 import { getRegularPage, getSinglePage } from "../lib/server/contentParser"; // Updated path
 
-// Rest of your code...
-import { getRegularPage, getSinglePage } from "../lib/server/contentParser"; // Updated path
-
+// Rest of your code..
 // for all regular pages
 const RegularPages = ({ data }) => {
   const { title, meta_title, description, image, noindex, canonical, layout } = data.frontmatter;
