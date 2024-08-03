@@ -1,11 +1,14 @@
-import config from "@config/config.json";
-import { gsap } from "@lib/gsap";
-import { plainify } from "@lib/utils/textConverter";
-import Footer from "@partials/Footer";
-import Header from "@partials/Header";
+import { useEffect, useRef } from "react";
+import config from "../config/config.json";
+import { gsap } from "../lib/gsap";
+import { plainify } from "../lib/utils/textConverter";
+import Footer from "../layouts/partials/Footer";
+import Header from "../layouts/partials/Header";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { useEffect, useRef } from "react";
+
+// Rest of your code...
+
 
 const Base = ({
   title,

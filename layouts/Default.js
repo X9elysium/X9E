@@ -1,6 +1,13 @@
 import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import Banner from "./components/Banner";
+import Base from "./Baseof";
+import Footer from "../layouts/partials/Footer";
+import Header from "../layouts/partials/Header";
+import Head from "next/head";
+import { useRouter } from "next/router";
+
+// Rest of your code...
 
 const Default = ({ data }) => {
   const { frontmatter, mdxContent } = data;

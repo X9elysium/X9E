@@ -1,6 +1,13 @@
 // import { markdownify } from "@lib/utils/textConverter";
 import { markdownify } from '../lib/utils/textConverter';
 
+import Base from "./Baseof";
+import Footer from "../layouts/partials/Footer";
+import Header from "../layouts/partials/Header";
+import Head from "next/head";
+import { useRouter } from "next/router";
+
+// Rest of your code...
 
 
 import { Autoplay } from "swiper";

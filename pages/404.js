@@ -1,7 +1,13 @@
-import NotFound from "@layouts/404";
-import Base from "@layouts/Baseof";
-import { getRegularPage } from "@lib/server/contentParser";
+import NotFound from "../layouts/404";
+import Base from "../layouts/Baseof";
+import Head from "next/head";
+import { useRouter } from "next/router";
 
+// Rest of your code...
+
+
+import { getRegularPage } from "../lib/server/contentParser";
+ 
 const notFound = ({ data }) => {
   return (
     <Base>

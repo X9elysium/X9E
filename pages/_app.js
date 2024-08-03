@@ -1,9 +1,12 @@
-import config from "@config/config.json";
-import theme from "@config/theme.json";
-import Head from "next/head";
-import { useEffect, useState } from "react";
+
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
+import config from "../config/config.json";
+import theme from "../config/theme.json";
+import Head from "next/head";
+import { useEffect, useState } from "react";
+
+// Rest of your code...
 
 const App = ({ Component, pageProps }) => {
   // import google font css
